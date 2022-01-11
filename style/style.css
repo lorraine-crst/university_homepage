@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+input,
+button {
+  font-family: 'Arimo', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu .logo--header {
+  background: url(../imagens/logo-header.svg);
+  width: 93px;
+  height: 27px;
+}
+
+.menu .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu .navbar .icons--header img {
+  width: 24px;
+  height: 24px;
+  -webkit-filter: invert(15%) sepia(36%) saturate(7080%) hue-rotate(334deg) brightness(91%) contrast(105%);
+          filter: invert(15%) sepia(36%) saturate(7080%) hue-rotate(334deg) brightness(91%) contrast(105%);
+  margin-right: 10px;
+}
+
+.explore-courses {
+  width: 100vw;
+  height: 100vh;
+  background: url(../imagens/image-lmu.jpg);
+}
+
+.explore-courses .color--side {
+  position: relative;
+  z-index: 1;
+  top: 50px;
+}
+
+.explore-courses .color--side h1 {
+  color: #fff;
+  font-size: 35px;
+  margin-left: 40px;
+  padding-top: 50px;
+}
+
+.explore-courses .color--side::before {
+  background-color: #AB0C2F;
+  position: absolute;
+  content: '';
+  z-index: -1;
+  margin-top: 10px;
+  width: 65px;
+  height: 130px;
+}
+
+.explore-courses .heading h1 {
+  max-width: 14rem;
+}
+/*# sourceMappingURL=style.css.map */
