@@ -114,6 +114,7 @@ body {
   padding: 10px;
   background: rgba(0, 0, 0, 0.6);
   border: 0.0625rem solid #fff;
+  border-radius: 18px;
 }
 
 .explore-courses .buttons--request p {
